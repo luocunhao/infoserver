@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.pulan.Dao.MeetingOADao">
+	<resultMap id="MeetingMainResult" type="com.pulan.model.oa.MeetingMain">
+		<result column="fd_id" property="fd_id" jdbcType="VARCHAR" />
+		<result column="doc_subject" property="doc_subject" jdbcType="VARCHAR" />
+		<result column="hbm_hold_date" property="hbm_hold_date" jdbcType="NUMERIC" />
+		<result column="fd_hold_date_time" property="fd_hold_date_time" jdbcType="DATE" />
+		<result column="hbm_hold_time" property="hbm_hold_time" jdbcType="NUMERIC" />
+		<result column="hbm_finish_date" property="hbm_finish_date" jdbcType="NUMERIC" />
+		<result column="hbm_finish_time" property="hbm_finish_time" jdbcType="NUMERIC" />
+		<result column="fd_source_continue" property="fd_source_continue" jdbcType="TINYINT" />
+		<result column="fd_clean_todo_flag" property="fd_clean_todo_flag" jdbcType="TINYINT" />
+		<result column="doc_content" property="doc_content" jdbcType="VARCHAR" />
+		<result column="doc_status" property="doc_status" jdbcType="VARCHAR" />
+		<result column="fd_hurry_summary" property="fd_hurry_summary" jdbcType="TINYINT" />
+		<result column="fd_summary_flag" property="fd_summary_flag" jdbcType="TINYINT" />
+		<result column="doc_create_time" property="doc_create_time" jdbcType="DATE" />
+		<result column="auth_reader_flag" property="auth_reader_flag" jdbcType="TINYINT" />
+		<result column="fd_last_modified_time" property="fd_last_modified_time" jdbcType="DATE" />
+		<result column="doc_creator_id" property="doc_creator_id" jdbcType="VARCHAR" />
+		<result column="fd_emcee_id" property="fd_emcee_id" jdbcType="VARCHAR" />
+		<result column="doc_dept_id" property="doc_dept_id" jdbcType="VARCHAR" />
+		<result column="fd_template_id" property="fd_template_id" jdbcType="VARCHAR" />
+		<result column="auth_att_nodownload" property="auth_att_nodownload" jdbcType="TINYINT" />
+		<result column="auth_att_nocopy" property="auth_att_nocopy" jdbcType="TINYINT" />
+		<result column="auth_att_noprint" property="auth_att_noprint" jdbcType="TINYINT" />
+		<result column="fd_notify_type" property="fd_notify_type" jdbcType="VARCHAR" />
+		<result column="fd_host_id" property="fd_host_id" jdbcType="VARCHAR" />
+		<result column="fd_hold_place" property="fd_hold_place" jdbcType="VARCHAR" />
+	</resultMap>
+	<resultMap id="MeetingMainAttendPersonResult" type ="com.pulan.model.oa.MeetingMainAttendPerson">
+	    <result column="fd_main_id" property="fd_main_id" jdbcType="VARCHAR" />
+		<result column="fd_main_attend_id" property="fd_main_attend_id" jdbcType="VARCHAR" />
+	</resultMap>
+	<resultMap id="MeetingMainCopyPersonResult" type ="com.pulan.model.oa.MeetingMainCopyPerson">
+	    <result column="fd_main_id" property="fd_main_id" jdbcType="VARCHAR" />
+		<result column="fd_main_copy_id" property="fd_main_copy_id" jdbcType="VARCHAR" />
+	</resultMap>
+	<resultMap id="MeetingMainUseSourceResult" type ="com.pulan.model.oa.MeetingMainUseSource">
+	    <result column="fd_main_id" property="fd_main_id" jdbcType="VARCHAR" />
+		<result column="fd_source_info_id" property="fd_source_info_id" jdbcType="VARCHAR" />
+	</resultMap>
+	<resultMap id="NotifyTodoTargetResult" type ="com.pulan.model.oa.NotifyTodoTarget">
+	    <result column="fd_todoid" property="fd_todoid" jdbcType="VARCHAR" />
+		<result column="fd_orgid" property="fd_orgid" jdbcType="VARCHAR" />
+	</resultMap>
+	<resultMap id="MeetingresMainResult" type ="com.pulan.model.oa.MeetingresMain">
+	    <result column="fd_id" property="fd_id" jdbcType="VARCHAR" />
+		<result column="doc_subject" property="doc_subject" jdbcType="VARCHAR" />
+		<result column="doc_create_time" property="doc_create_time" jdbcType="DATE" />
+		<result column="fd_time_interval" property="fd_time_interval" jdbcType="NUMERIC" />
+		<result column="doc_status" property="doc_status" jdbcType="VARCHAR" />
+		<result column="hbm_start_date" property="hbm_start_date" jdbcType="NUMERIC" />
+		<result column="hbm_start_time" property="hbm_start_time" jdbcType="NUMERIC" />
+		<result column="fd_order_start_date_time" property="fd_order_start_date_time" jdbcType="DATE" />
+		<result column="hbm_finish_date" property="hbm_finish_date" jdbcType="NUMERIC" />
+		<result column="hbm_finish_time" property="hbm_finish_time" jdbcType="NUMERIC" />
+		<result column="fd_order_finish_date_time" property="fd_order_finish_date_time" jdbcType="DATE" />
+		<result column="fd_resource_continue" property="fd_resource_continue" jdbcType="TINYINT" />
+		<result column="fd_borrow_reason" property="fd_borrow_reason" jdbcType="VARCHAR" />
+		<result column="auth_reader_flag" property="auth_reader_flag" jdbcType="TINYINT" />
+		<result column="doc_publish_time" property="doc_publish_time" jdbcType="DATE" />
+		<result column="fd_last_modified_time" property="fd_last_modified_time" jdbcType="DATE" />
+		<result column="fd_meeting_id" property="fd_meeting_id" jdbcType="VARCHAR" />
+		<result column="doc_creator_id" property="doc_creator_id" jdbcType="VARCHAR" />
+		<result column="fd_proposer_id" property="fd_proposer_id" jdbcType="VARCHAR" />
+		<result column="doc_dept_id" property="doc_dept_id" jdbcType="VARCHAR" />
+		<result column="fd_resource_id" property="fd_resource_id" jdbcType="VARCHAR" />
+	</resultMap>
+	<resultMap id="NotifyTodoResult" type ="com.pulan.model.oa.NotifyTodo">
+	    <result column="fd_id" property="fd_id" jdbcType="VARCHAR" />
+		<result column="fd_app_name" property="fd_app_name" jdbcType="VARCHAR" />
+		<result column="fd_model_name" property="fd_model_name" jdbcType="VARCHAR" />
+	 	<result column="fs_model_id" property="fs_model_id" jdbcType="VARCHAR" />
+		<result column="fd_subject" property="fd_subject" jdbcType="VARCHAR" />
+		<result column="fd_type" property="fd_type" jdbcType="INTEGER" />
+		<result column="fd_link" property="fd_link" jdbcType="VARCHAR" />
+		<result column="fd_bundle" property="fd_bundle" jdbcType="VARCHAR" />
+		<result column="fd_replace_text" property="fd_replace_text" jdbcType="VARCHAR" />
+		<result column="fd_create_time" property="fd_create_time" jdbcType="DATE"/>
+	</resultMap>
+	<resultMap id="MeetingMainReaderResult" type ="com.pulan.model.oa.MeetingMainReader">
+	    <result column="fd_main_id" property="fd_main_id" jdbcType="VARCHAR" />
+		<result column="auth_reader_id" property="auth_reader_id" jdbcType="VARCHAR" />
+	</resultMap>
+	<resultMap id="MeetingMainAreaderResult" type ="com.pulan.model.oa.MeetingMainAreader">
+	    <result column="fd_main_id" property="fd_main_id" jdbcType="VARCHAR" />
+		<result column="auth_all_reader_id" property="auth_all_reader_id" jdbcType="VARCHAR" />
+	</resultMap>
+	<resultMap id="TemplateResult" type ="com.pulan.model.oa.Template">
+	    <result column="fd_id" property="fd_id" jdbcType="VARCHAR" />
+		<result column="fd_name" property="fd_name" jdbcType="VARCHAR" />
+	</resultMap>
+	<insert id="insertMeetingMain" parameterType="com.pulan.model.oa.MeetingMain">
+	  insert into km_meeting_main
+	  (fd_id,doc_subject,hbm_hold_date,fd_hold_date_time,hbm_hold_time,hbm_finish_date,hbm_finish_time
+	  ,fd_source_continue,fd_clean_todo_flag,doc_content,doc_status,fd_hurry_summary,doc_create_time
+	  ,auth_reader_flag,fd_last_modified_time,doc_creator_id,fd_emcee_id,doc_dept_id,fd_template_id
+	  ,auth_att_nodownload,auth_att_nocopy,auth_att_noprint,fd_notify_type,fd_hold_place,fd_host_id,fd_summary_flag)
+	  values
+	  (#{fd_id},#{doc_subject},#{hbm_hold_date},#{fd_hold_date_time},#{hbm_hold_time},#{hbm_finish_date},#{hbm_finish_time}
+	  ,#{fd_source_continue},#{fd_clean_todo_flag},#{doc_content},#{doc_status},#{fd_hurry_summary},#{doc_create_time}
+	  ,#{auth_reader_flag},#{fd_last_modified_time},#{doc_creator_id},#{fd_emcee_id},#{doc_dept_id},#{fd_template_id}
+	  ,#{auth_att_nodownload},#{auth_att_nocopy},#{auth_att_noprint},#{fd_notify_type},#{fd_hold_place},#{fd_host_id},#{fd_summary_flag})
+	</insert>
+	<insert id="insertMeetingMainAttendPerson" parameterType="com.pulan.model.oa.MeetingMainAttendPerson">
+	  insert into km_meeting_main_attend_person
+	  (fd_main_id,fd_main_attend_id)
+	  values
+	  (#{fd_main_id},#{fd_main_attend_id})
+	</insert>
+	<insert id="insertMeetingMainCopyPerson" parameterType="com.pulan.model.oa.MeetingMainCopyPerson">
+	  insert into km_meeting_main_copy_person
+	  (fd_main_id,fd_main_copy_id)
+	  values
+	  (#{fd_main_id},#{fd_main_copy_id})
+	</insert>
+	<insert id="insertMeetingMainUseSource" parameterType="com.pulan.model.oa.MeetingMainUseSource">
+	  insert into km_meeting_main_use_source
+	  (fd_main_id,fd_resource_info_id)
+	  values
+	  (#{fd_main_id},#{fd_resource_info_id})
+	</insert>
+	<insert id="insertMeetingresMain" parameterType="com.pulan.model.oa.MeetingresMain">
+	  insert into km_meetingres_main
+	  (fd_id,doc_subject,doc_create_time,fd_time_interval,doc_status,hbm_start_date
+	  ,hbm_start_time,fd_order_start_date_time,hbm_finish_date,hbm_finish_time,fd_order_finish_date_time
+	  ,fd_resource_continue,fd_borrow_reason,auth_reader_flag,doc_publish_time,fd_last_modified_time
+	  ,fd_meeting_id,doc_creator_id,fd_proposer_id,doc_dept_id,fd_resource_id)
+	  values
+	  (#{fd_id},#{doc_subject},#{doc_create_time},#{fd_time_interval},#{doc_status},#{hbm_start_date}
+	  ,#{hbm_start_time},#{fd_order_start_date_time},#{hbm_finish_date},#{hbm_finish_time},#{fd_order_finish_date_time}
+	  ,#{fd_resource_continue},#{fd_borrow_reason},#{auth_reader_flag},#{doc_publish_time},#{fd_last_modified_time}
+	  ,#{fd_meeting_id},#{doc_creator_id},#{fd_proposer_id},#{doc_dept_id},#{fd_resource_id})
+	</insert>
+	<insert id="insertNotifyTodo" parameterType="com.pulan.model.oa.NotifyTodo">
+	  insert into sys_notify_todo
+	  (fd_id,fd_app_name,fd_model_name,fd_model_id,fd_subject,fd_type,fd_link,fd_bundle,fd_replace_text,fd_create_time)
+	  values
+	  (#{fd_id},#{fd_app_name},#{fd_model_name},#{fs_model_id},#{fd_subject},#{fd_type},#{fd_link},#{fd_bundle},#{fd_replace_text},#{fd_create_time})
+	</insert>
+	<insert id="insertNotifyTodoTarget" parameterType="com.pulan.model.oa.NotifyTodoTarget">
+	  insert into sys_notify_todotarget
+	  (fd_orgid,fd_todoid)
+	  values
+	  (#{fd_orgid},#{fd_todoid})
+	</insert>
+	<insert id="insertMeetingMainAreader" parameterType="com.pulan.model.oa.MeetingMainAreader">
+	  insert into km_meeting_main_areader
+	  (fd_main_id,auth_all_reader_id)
+	  values
+	  (#{fd_main_id},#{auth_all_reader_id})
+	</insert>
+	<insert id="insertMeetingMainReader" parameterType="com.pulan.model.oa.MeetingMainReader">
+	  insert into km_meeting_main_reader
+	  (fd_main_id,auth_reader_id)
+	  values
+	  (#{fd_main_id},#{auth_reader_id})
+	</insert>
+	<select id="getEleIdByLoginName" parameterType="Map" resultType="String">
+ 	select fd_id from sys_org_person where fd_login_name = #{loginName}
+	</select>
+	<select id="getAllCategoryMain" parameterType="Map" resultType="com.pulan.model.oa.Template">
+ 	select fd_id,fd_name from sys_category_main where fd_model_name = 'com.landray.kmss.km.meeting.model.KmMeetingTemplate' order by fd_order
+	</select>
+	<select id="getAllKmMeetingTemplate" parameterType="Map" resultType="com.pulan.model.oa.Template">
+ 	select fd_id,fd_name from km_meeting_template where doc_category_id = #{doc_category_id}
+	</select>
+	<select id="getAllOrgPerson" parameterType="Map" resultType="com.pulan.model.oa.Template">
+ 	select fd_id,fd_name from sys_org_element where fd_parentid in (select fd_id from sys_org_element where fd_parentid = '14158f173ee9bb207355e674839b8855') and fd_org_type = '8'
+	</select>
+	<select id="getEmpByfdid" parameterType="Map" resultType="String">
+	select a.fd_id from sys_org_element a,sys_org_element b where a.fd_id = b.fd_parentid and b.fd_id = #{fd_id}
+	</select>
+</mapper>

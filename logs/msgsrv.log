@@ -1,0 +1,681 @@
+2017-11-15 10:02:53[INFO] Starting InfoServer on PC-20161012TGOR with PID 4312 (D:\JavaWorkspace\InfoServer\target\classes started by hadoop in D:\JavaWorkspace\InfoServer)
+2017-11-15 10:02:53[INFO] No active profile set, falling back to default profiles: default
+2017-11-15 10:02:53[INFO] Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@12c8a2c0: startup date [Wed Nov 15 10:02:53 CST 2017]; root of context hierarchy
+2017-11-15 10:02:54[INFO] HV000001: Hibernate Validator 5.3.4.Final
+2017-11-15 10:02:56[INFO] Bean 'org.springframework.boot.autoconfigure.validation.ValidationAutoConfiguration' of type [class org.springframework.boot.autoconfigure.validation.ValidationAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-11-15 10:02:56[INFO] Bean 'validator' of type [class org.springframework.validation.beanvalidation.LocalValidatorFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-11-15 10:02:56[INFO] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$69120a00] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-11-15 10:02:57[INFO] Tomcat initialized with port(s): 8085 (http)
+2017-11-15 10:02:57[INFO] Root WebApplicationContext: initialization completed in 4044 ms
+2017-11-15 10:02:58[INFO] Mapping servlet: 'dispatcherServlet' to [/]
+2017-11-15 10:02:58[INFO] Mapping servlet: 'statViewServlet' to [/druid/*]
+2017-11-15 10:02:58[INFO] Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-11-15 10:02:58[INFO] Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-11-15 10:02:58[INFO] Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-11-15 10:02:58[INFO] Mapping filter: 'requestContextFilter' to: [/*]
+2017-11-15 10:02:58[INFO] Mapping filter: 'webStatFilter' to urls: [/*]
+2017-11-15 10:02:59[INFO] Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@12c8a2c0: startup date [Wed Nov 15 10:02:53 CST 2017]; root of context hierarchy
+2017-11-15 10:02:59[INFO] Mapped "{[/info/]}" onto public int com.pulan.controller.HelloWordController.helloworld()
+2017-11-15 10:02:59[INFO] Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-11-15 10:02:59[INFO] Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-11-15 10:03:00[INFO] Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-11-15 10:03:00[INFO] Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-11-15 10:03:00[INFO] Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-11-15 10:03:00[INFO] Registering beans for JMX exposure on startup
+2017-11-15 10:03:00[INFO] Bean with name 'mysqlDbDataSource' has been autodetected for JMX exposure
+2017-11-15 10:03:00[INFO] Bean with name 'sqlserverDbDataSource' has been autodetected for JMX exposure
+2017-11-15 10:03:00[INFO] Located MBean 'sqlserverDbDataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=sqlserverDbDataSource,type=DruidDataSource]
+2017-11-15 10:03:00[INFO] Located MBean 'mysqlDbDataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=mysqlDbDataSource,type=DruidDataSource]
+2017-11-15 10:03:00[INFO] No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2017-11-15 10:03:01[INFO] Tomcat started on port(s): 8085 (http)
+2017-11-15 10:03:01[INFO] Started InfoServer in 8.071 seconds (JVM running for 8.788)
+2017-11-15 10:06:48[INFO] Starting InfoServer on PC-20161012TGOR with PID 4400 (D:\JavaWorkspace\InfoServer\target\classes started by hadoop in D:\JavaWorkspace\InfoServer)
+2017-11-15 10:06:48[INFO] No active profile set, falling back to default profiles: default
+2017-11-15 10:06:48[INFO] Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@87a85e1: startup date [Wed Nov 15 10:06:48 CST 2017]; root of context hierarchy
+2017-11-15 10:06:49[INFO] HV000001: Hibernate Validator 5.3.4.Final
+2017-11-15 10:06:51[INFO] Bean 'org.springframework.boot.autoconfigure.validation.ValidationAutoConfiguration' of type [class org.springframework.boot.autoconfigure.validation.ValidationAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-11-15 10:06:52[INFO] Bean 'validator' of type [class org.springframework.validation.beanvalidation.LocalValidatorFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-11-15 10:06:52[INFO] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$1e140ec4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-11-15 10:06:52[INFO] Tomcat initialized with port(s): 8085 (http)
+2017-11-15 10:06:53[INFO] Root WebApplicationContext: initialization completed in 4386 ms
+2017-11-15 10:06:53[INFO] Mapping servlet: 'dispatcherServlet' to [/]
+2017-11-15 10:06:53[INFO] Mapping servlet: 'statViewServlet' to [/druid/*]
+2017-11-15 10:06:53[INFO] Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-11-15 10:06:53[INFO] Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-11-15 10:06:53[INFO] Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-11-15 10:06:53[INFO] Mapping filter: 'requestContextFilter' to: [/*]
+2017-11-15 10:06:53[INFO] Mapping filter: 'webStatFilter' to urls: [/*]
+2017-11-15 10:06:55[INFO] Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@87a85e1: startup date [Wed Nov 15 10:06:48 CST 2017]; root of context hierarchy
+2017-11-15 10:06:56[INFO] Mapped "{[/info/]}" onto public int com.pulan.controller.HelloWordController.helloworld()
+2017-11-15 10:06:56[INFO] Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-11-15 10:06:56[INFO] Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-11-15 10:06:56[INFO] Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-11-15 10:06:56[INFO] Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-11-15 10:06:56[INFO] Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-11-15 10:06:57[INFO] Registering beans for JMX exposure on startup
+2017-11-15 10:06:57[INFO] Bean with name 'mysqlDbDataSource' has been autodetected for JMX exposure
+2017-11-15 10:06:57[INFO] Bean with name 'sqlserverDbDataSource' has been autodetected for JMX exposure
+2017-11-15 10:06:57[INFO] Located MBean 'sqlserverDbDataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=sqlserverDbDataSource,type=DruidDataSource]
+2017-11-15 10:06:57[INFO] Located MBean 'mysqlDbDataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=mysqlDbDataSource,type=DruidDataSource]
+2017-11-15 10:06:57[INFO] No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2017-11-15 10:06:57[INFO] Tomcat started on port(s): 8085 (http)
+2017-11-15 10:06:57[INFO] Started InfoServer in 9.665 seconds (JVM running for 10.729)
+2017-11-15 10:09:15[INFO] Starting InfoServer on PC-20161012TGOR with PID 4512 (D:\JavaWorkspace\InfoServer\target\classes started by hadoop in D:\JavaWorkspace\InfoServer)
+2017-11-15 10:09:15[INFO] No active profile set, falling back to default profiles: default
+2017-11-15 10:09:15[INFO] Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@87a85e1: startup date [Wed Nov 15 10:09:15 CST 2017]; root of context hierarchy
+2017-11-15 10:09:16[INFO] HV000001: Hibernate Validator 5.3.4.Final
+2017-11-15 10:09:18[INFO] Bean 'org.springframework.boot.autoconfigure.validation.ValidationAutoConfiguration' of type [class org.springframework.boot.autoconfigure.validation.ValidationAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-11-15 10:09:18[INFO] Bean 'validator' of type [class org.springframework.validation.beanvalidation.LocalValidatorFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-11-15 10:09:18[INFO] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$770e9b78] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-11-15 10:09:19[INFO] Tomcat initialized with port(s): 8085 (http)
+2017-11-15 10:09:19[INFO] Root WebApplicationContext: initialization completed in 4273 ms
+2017-11-15 10:09:19[INFO] Mapping servlet: 'dispatcherServlet' to [/]
+2017-11-15 10:09:19[INFO] Mapping servlet: 'statViewServlet' to [/druid/*]
+2017-11-15 10:09:20[INFO] Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-11-15 10:09:20[INFO] Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-11-15 10:09:20[INFO] Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-11-15 10:09:20[INFO] Mapping filter: 'requestContextFilter' to: [/*]
+2017-11-15 10:09:20[INFO] Mapping filter: 'webStatFilter' to urls: [/*]
+2017-11-15 10:09:21[INFO] Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@87a85e1: startup date [Wed Nov 15 10:09:15 CST 2017]; root of context hierarchy
+2017-11-15 10:09:22[INFO] Mapped "{[/info/]}" onto public int com.pulan.controller.HelloWordController.helloworld()
+2017-11-15 10:09:22[INFO] Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-11-15 10:09:22[INFO] Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-11-15 10:09:22[INFO] Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-11-15 10:09:22[INFO] Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-11-15 10:09:22[INFO] Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-11-15 10:09:23[INFO] Registering beans for JMX exposure on startup
+2017-11-15 10:09:23[INFO] Bean with name 'mysqlDbDataSource' has been autodetected for JMX exposure
+2017-11-15 10:09:23[INFO] Bean with name 'sqlserverDbDataSource' has been autodetected for JMX exposure
+2017-11-15 10:09:23[INFO] Located MBean 'sqlserverDbDataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=sqlserverDbDataSource,type=DruidDataSource]
+2017-11-15 10:09:23[INFO] Located MBean 'mysqlDbDataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=mysqlDbDataSource,type=DruidDataSource]
+2017-11-15 10:09:23[INFO] No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2017-11-15 10:09:23[INFO] Tomcat started on port(s): 8085 (http)
+2017-11-15 10:09:23[INFO] Started InfoServer in 8.958 seconds (JVM running for 9.756)
+2017-11-15 10:10:07[INFO] {dataSource-1} inited
+2017-11-15 10:11:47[INFO] Starting InfoServer on PC-20161012TGOR with PID 4508 (D:\JavaWorkspace\InfoServer\target\classes started by hadoop in D:\JavaWorkspace\InfoServer)
+2017-11-15 10:11:47[INFO] No active profile set, falling back to default profiles: default
+2017-11-15 10:11:47[INFO] Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@87a85e1: startup date [Wed Nov 15 10:11:47 CST 2017]; root of context hierarchy
+2017-11-15 10:11:48[INFO] HV000001: Hibernate Validator 5.3.4.Final
+2017-11-15 10:11:50[INFO] Bean 'org.springframework.boot.autoconfigure.validation.ValidationAutoConfiguration' of type [class org.springframework.boot.autoconfigure.validation.ValidationAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-11-15 10:11:50[INFO] Bean 'validator' of type [class org.springframework.validation.beanvalidation.LocalValidatorFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-11-15 10:11:50[INFO] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a7b5932c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-11-15 10:11:51[INFO] Tomcat initialized with port(s): 8085 (http)
+2017-11-15 10:11:51[INFO] Root WebApplicationContext: initialization completed in 4070 ms
+2017-11-15 10:11:52[INFO] Mapping servlet: 'dispatcherServlet' to [/]
+2017-11-15 10:11:52[INFO] Mapping servlet: 'statViewServlet' to [/druid/*]
+2017-11-15 10:11:52[INFO] Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-11-15 10:11:52[INFO] Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-11-15 10:11:52[INFO] Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-11-15 10:11:52[INFO] Mapping filter: 'requestContextFilter' to: [/*]
+2017-11-15 10:11:52[INFO] Mapping filter: 'webStatFilter' to urls: [/*]
+2017-11-15 10:11:54[INFO] Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@87a85e1: startup date [Wed Nov 15 10:11:47 CST 2017]; root of context hierarchy
+2017-11-15 10:11:54[INFO] Mapped "{[/info/]}" onto public int com.pulan.controller.HelloWordController.helloworld()
+2017-11-15 10:11:54[INFO] Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-11-15 10:11:54[INFO] Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-11-15 10:11:54[INFO] Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-11-15 10:11:54[INFO] Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-11-15 10:11:54[INFO] Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-11-15 10:11:55[INFO] Registering beans for JMX exposure on startup
+2017-11-15 10:11:55[INFO] Bean with name 'mysqlDbDataSource' has been autodetected for JMX exposure
+2017-11-15 10:11:55[INFO] Bean with name 'sqlserverDbDataSource' has been autodetected for JMX exposure
+2017-11-15 10:11:55[INFO] Located MBean 'sqlserverDbDataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=sqlserverDbDataSource,type=DruidDataSource]
+2017-11-15 10:11:55[INFO] Located MBean 'mysqlDbDataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=mysqlDbDataSource,type=DruidDataSource]
+2017-11-15 10:11:55[INFO] No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2017-11-15 10:11:55[INFO] Tomcat started on port(s): 8085 (http)
+2017-11-15 10:11:55[INFO] Started InfoServer in 8.978 seconds (JVM running for 9.795)
+2017-11-15 10:12:09[INFO] {dataSource-1} inited
+2017-11-15 10:12:38[ERROR] testWhileIdle is true, validationQuery not set
+2017-11-15 10:12:38[INFO] {dataSource-2} inited
+2017-11-15 10:12:52[INFO] --------------meeting push taskid----------------:{"msg_content":"您的会议将在2017-11-15 10:30:00,福-喜年4楼中会议室召开,会议主题是推送测试","msg_name":"会议提醒","alias":"861535032038336","msg_type":"meetting"}
+2017-11-15 10:13:41[INFO] Starting InfoServer on PC-20161012TGOR with PID 1212 (D:\JavaWorkspace\InfoServer\target\classes started by hadoop in D:\JavaWorkspace\InfoServer)
+2017-11-15 10:13:41[INFO] No active profile set, falling back to default profiles: default
+2017-11-15 10:13:41[INFO] Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@12c8a2c0: startup date [Wed Nov 15 10:13:41 CST 2017]; root of context hierarchy
+2017-11-15 10:13:42[INFO] HV000001: Hibernate Validator 5.3.4.Final
+2017-11-15 10:13:43[INFO] Bean 'org.springframework.boot.autoconfigure.validation.ValidationAutoConfiguration' of type [class org.springframework.boot.autoconfigure.validation.ValidationAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-11-15 10:13:44[INFO] Bean 'validator' of type [class org.springframework.validation.beanvalidation.LocalValidatorFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-11-15 10:13:44[INFO] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$30ba79e7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-11-15 10:13:44[INFO] Tomcat initialized with port(s): 8085 (http)
+2017-11-15 10:13:45[INFO] Root WebApplicationContext: initialization completed in 3765 ms
+2017-11-15 10:13:45[INFO] Mapping servlet: 'dispatcherServlet' to [/]
+2017-11-15 10:13:45[INFO] Mapping servlet: 'statViewServlet' to [/druid/*]
+2017-11-15 10:13:45[INFO] Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-11-15 10:13:45[INFO] Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-11-15 10:13:45[INFO] Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-11-15 10:13:45[INFO] Mapping filter: 'requestContextFilter' to: [/*]
+2017-11-15 10:13:45[INFO] Mapping filter: 'webStatFilter' to urls: [/*]
+2017-11-15 10:13:46[INFO] Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@12c8a2c0: startup date [Wed Nov 15 10:13:41 CST 2017]; root of context hierarchy
+2017-11-15 10:13:46[INFO] Mapped "{[/info/]}" onto public int com.pulan.controller.HelloWordController.helloworld()
+2017-11-15 10:13:46[INFO] Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-11-15 10:13:46[INFO] Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-11-15 10:13:47[INFO] Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-11-15 10:13:47[INFO] Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-11-15 10:13:47[INFO] Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-11-15 10:13:47[INFO] Registering beans for JMX exposure on startup
+2017-11-15 10:13:47[INFO] Bean with name 'mysqlDbDataSource' has been autodetected for JMX exposure
+2017-11-15 10:13:47[INFO] Bean with name 'sqlserverDbDataSource' has been autodetected for JMX exposure
+2017-11-15 10:13:47[INFO] Located MBean 'sqlserverDbDataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=sqlserverDbDataSource,type=DruidDataSource]
+2017-11-15 10:13:47[INFO] Located MBean 'mysqlDbDataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=mysqlDbDataSource,type=DruidDataSource]
+2017-11-15 10:13:47[INFO] No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2017-11-15 10:14:41[INFO] Starting InfoServer on PC-20161012TGOR with PID 2340 (D:\JavaWorkspace\InfoServer\target\classes started by hadoop in D:\JavaWorkspace\InfoServer)
+2017-11-15 10:14:41[INFO] No active profile set, falling back to default profiles: default
+2017-11-15 10:14:41[INFO] Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@12c8a2c0: startup date [Wed Nov 15 10:14:41 CST 2017]; root of context hierarchy
+2017-11-15 10:14:42[INFO] HV000001: Hibernate Validator 5.3.4.Final
+2017-11-15 10:14:44[INFO] Bean 'org.springframework.boot.autoconfigure.validation.ValidationAutoConfiguration' of type [class org.springframework.boot.autoconfigure.validation.ValidationAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-11-15 10:14:44[INFO] Bean 'validator' of type [class org.springframework.validation.beanvalidation.LocalValidatorFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-11-15 10:14:44[INFO] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$6eaadea] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-11-15 10:14:45[INFO] Tomcat initialized with port(s): 8085 (http)
+2017-11-15 10:14:45[INFO] Root WebApplicationContext: initialization completed in 3711 ms
+2017-11-15 10:14:45[INFO] Mapping servlet: 'dispatcherServlet' to [/]
+2017-11-15 10:14:45[INFO] Mapping servlet: 'statViewServlet' to [/druid/*]
+2017-11-15 10:14:45[INFO] Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-11-15 10:14:45[INFO] Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-11-15 10:14:45[INFO] Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-11-15 10:14:45[INFO] Mapping filter: 'requestContextFilter' to: [/*]
+2017-11-15 10:14:45[INFO] Mapping filter: 'webStatFilter' to urls: [/*]
+2017-11-15 10:14:47[INFO] Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@12c8a2c0: startup date [Wed Nov 15 10:14:41 CST 2017]; root of context hierarchy
+2017-11-15 10:14:47[INFO] Mapped "{[/info/]}" onto public int com.pulan.controller.HelloWordController.helloworld()
+2017-11-15 10:14:47[INFO] Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-11-15 10:14:47[INFO] Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-11-15 10:14:47[INFO] Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-11-15 10:14:47[INFO] Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-11-15 10:14:47[INFO] Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-11-15 10:14:47[INFO] Registering beans for JMX exposure on startup
+2017-11-15 10:14:47[INFO] Bean with name 'mysqlDbDataSource' has been autodetected for JMX exposure
+2017-11-15 10:14:47[INFO] Bean with name 'sqlserverDbDataSource' has been autodetected for JMX exposure
+2017-11-15 10:14:47[INFO] Located MBean 'sqlserverDbDataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=sqlserverDbDataSource,type=DruidDataSource]
+2017-11-15 10:14:47[INFO] Located MBean 'mysqlDbDataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=mysqlDbDataSource,type=DruidDataSource]
+2017-11-15 10:14:47[INFO] No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2017-11-15 10:14:48[INFO] Tomcat started on port(s): 8085 (http)
+2017-11-15 10:14:48[INFO] Started InfoServer in 7.385 seconds (JVM running for 8.004)
+2017-11-15 10:20:00[INFO] {dataSource-1} inited
+2017-11-15 10:30:44[INFO] Created instance with connectionTimeout 5,000, readTimeout 30,000, maxRetryTimes 3, SSL Version TLS
+2017-11-15 10:30:44[INFO] Created instance with connectionTimeout 5,000, readTimeout 30,000, maxRetryTimes 3, SSL Version TLS
+2017-11-15 10:30:44[INFO] Created instance with connectionTimeout 5,000, readTimeout 30,000, maxRetryTimes 3, SSL Version TLS
+2017-11-15 10:30:44[INFO] Created instance with connectionTimeout 5,000, readTimeout 30,000, maxRetryTimes 3, SSL Version TLS
+2017-11-15 10:30:44[INFO] pushPayload{"platform":"all","audience":{"alias":["861535032038336"]},"notification":{"android":{"alert":"您的会议将在2017-11-15 10:30:00,福-喜年4楼中会议室召开,会议主题是推送测试","extras":{"androidNotification extras key":"meetting"},"title":"会议提醒"}},"message":{"title":"会议提醒","msg_content":"您的会议将在2017-11-15 10:30:00,福-喜年4楼中会议室召开,会议主题是推送测试","extras":{"message extras key":"meetting"}},"options":{"sendno":1,"time_to_live":86400,"apns_production":false}}
+2017-11-15 10:30:45[INFO] pushResult{"msg_id":3266796273,"sendno":1,"statusCode":0}
+2017-11-15 14:37:23[INFO] Starting InfoServer on PC-20161012TGOR with PID 2564 (D:\JavaWorkspace\InfoServer\target\classes started by hadoop in D:\JavaWorkspace\InfoServer)
+2017-11-15 14:37:23[INFO] No active profile set, falling back to default profiles: default
+2017-11-15 14:37:24[INFO] Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@12c8a2c0: startup date [Wed Nov 15 14:37:24 CST 2017]; root of context hierarchy
+2017-11-15 14:37:24[INFO] HV000001: Hibernate Validator 5.3.4.Final
+2017-11-15 14:37:25[INFO] Loading XML bean definitions from class path resource [applicaitonContext.xml]
+2017-11-15 14:37:25[WARN] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: IOException parsing XML document from class path resource [applicaitonContext.xml]; nested exception is java.io.FileNotFoundException: class path resource [applicaitonContext.xml] cannot be opened because it does not exist
+2017-11-15 14:37:25[ERROR] Destroy method on bean with name 'org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory' threw an exception
+java.lang.IllegalStateException: ApplicationEventMulticaster not initialized - call 'refresh' before multicasting events via the context: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@12c8a2c0: startup date [Wed Nov 15 14:37:24 CST 2017]; root of context hierarchy
+	at org.springframework.context.support.AbstractApplicationContext.getApplicationEventMulticaster(AbstractApplicationContext.java:404)
+	at org.springframework.context.support.ApplicationListenerDetector.postProcessBeforeDestruction(ApplicationListenerDetector.java:97)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:253)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:578)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:554)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:961)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:523)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:968)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1033)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:555)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:737)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:370)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:314)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1162)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1151)
+	at com.pulan.InfoServer.main(InfoServer.java:27)
+2017-11-15 14:37:25[ERROR] Application startup failed
+org.springframework.beans.factory.BeanDefinitionStoreException: IOException parsing XML document from class path resource [applicaitonContext.xml]; nested exception is java.io.FileNotFoundException: class path resource [applicaitonContext.xml] cannot be opened because it does not exist
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:344)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:304)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:181)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:217)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:188)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsFromImportedResources(ConfigurationClassBeanDefinitionReader.java:346)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsForConfigurationClass(ConfigurationClassBeanDefinitionReader.java:142)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitions(ConfigurationClassBeanDefinitionReader.java:116)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:320)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:228)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:270)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:93)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:686)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:524)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:737)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:370)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:314)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1162)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1151)
+	at com.pulan.InfoServer.main(InfoServer.java:27)
+Caused by: java.io.FileNotFoundException: class path resource [applicaitonContext.xml] cannot be opened because it does not exist
+	at org.springframework.core.io.ClassPathResource.getInputStream(ClassPathResource.java:172)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:330)
+	... 20 more
+2017-11-15 14:39:14[INFO] Starting InfoServer on PC-20161012TGOR with PID 4716 (D:\JavaWorkspace\InfoServer\target\classes started by hadoop in D:\JavaWorkspace\InfoServer)
+2017-11-15 14:39:14[INFO] No active profile set, falling back to default profiles: default
+2017-11-15 14:39:14[INFO] Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@12c8a2c0: startup date [Wed Nov 15 14:39:14 CST 2017]; root of context hierarchy
+2017-11-15 14:39:15[INFO] HV000001: Hibernate Validator 5.3.4.Final
+2017-11-15 14:39:16[INFO] Loading XML bean definitions from class path resource [applicaitonContext.xml]
+2017-11-15 14:39:16[WARN] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: IOException parsing XML document from class path resource [applicaitonContext.xml]; nested exception is java.io.FileNotFoundException: class path resource [applicaitonContext.xml] cannot be opened because it does not exist
+2017-11-15 14:39:16[ERROR] Destroy method on bean with name 'org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory' threw an exception
+java.lang.IllegalStateException: ApplicationEventMulticaster not initialized - call 'refresh' before multicasting events via the context: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@12c8a2c0: startup date [Wed Nov 15 14:39:14 CST 2017]; root of context hierarchy
+	at org.springframework.context.support.AbstractApplicationContext.getApplicationEventMulticaster(AbstractApplicationContext.java:404)
+	at org.springframework.context.support.ApplicationListenerDetector.postProcessBeforeDestruction(ApplicationListenerDetector.java:97)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:253)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:578)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:554)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:961)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:523)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:968)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1033)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:555)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:737)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:370)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:314)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1162)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1151)
+	at com.pulan.InfoServer.main(InfoServer.java:27)
+2017-11-15 14:39:16[ERROR] Application startup failed
+org.springframework.beans.factory.BeanDefinitionStoreException: IOException parsing XML document from class path resource [applicaitonContext.xml]; nested exception is java.io.FileNotFoundException: class path resource [applicaitonContext.xml] cannot be opened because it does not exist
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:344)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:304)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:181)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:217)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:188)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsFromImportedResources(ConfigurationClassBeanDefinitionReader.java:346)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsForConfigurationClass(ConfigurationClassBeanDefinitionReader.java:142)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitions(ConfigurationClassBeanDefinitionReader.java:116)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:320)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:228)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:270)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:93)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:686)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:524)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:737)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:370)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:314)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1162)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1151)
+	at com.pulan.InfoServer.main(InfoServer.java:27)
+Caused by: java.io.FileNotFoundException: class path resource [applicaitonContext.xml] cannot be opened because it does not exist
+	at org.springframework.core.io.ClassPathResource.getInputStream(ClassPathResource.java:172)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:330)
+	... 20 more
+2017-11-15 14:40:33[INFO] Starting InfoServer on PC-20161012TGOR with PID 4856 (D:\JavaWorkspace\InfoServer\target\classes started by hadoop in D:\JavaWorkspace\InfoServer)
+2017-11-15 14:40:33[INFO] No active profile set, falling back to default profiles: default
+2017-11-15 14:40:34[INFO] Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@12c8a2c0: startup date [Wed Nov 15 14:40:34 CST 2017]; root of context hierarchy
+2017-11-15 14:40:34[INFO] HV000001: Hibernate Validator 5.3.4.Final
+2017-11-15 14:40:35[INFO] Loading XML bean definitions from class path resource [applicaitonContext.xml]
+2017-11-15 14:40:35[WARN] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: IOException parsing XML document from class path resource [applicaitonContext.xml]; nested exception is java.io.FileNotFoundException: class path resource [applicaitonContext.xml] cannot be opened because it does not exist
+2017-11-15 14:40:35[ERROR] Destroy method on bean with name 'org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory' threw an exception
+java.lang.IllegalStateException: ApplicationEventMulticaster not initialized - call 'refresh' before multicasting events via the context: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@12c8a2c0: startup date [Wed Nov 15 14:40:34 CST 2017]; root of context hierarchy
+	at org.springframework.context.support.AbstractApplicationContext.getApplicationEventMulticaster(AbstractApplicationContext.java:404)
+	at org.springframework.context.support.ApplicationListenerDetector.postProcessBeforeDestruction(ApplicationListenerDetector.java:97)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:253)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:578)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:554)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:961)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:523)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:968)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1033)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:555)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:737)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:370)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:314)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1162)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1151)
+	at com.pulan.InfoServer.main(InfoServer.java:27)
+2017-11-15 14:40:35[ERROR] Application startup failed
+org.springframework.beans.factory.BeanDefinitionStoreException: IOException parsing XML document from class path resource [applicaitonContext.xml]; nested exception is java.io.FileNotFoundException: class path resource [applicaitonContext.xml] cannot be opened because it does not exist
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:344)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:304)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:181)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:217)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:188)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsFromImportedResources(ConfigurationClassBeanDefinitionReader.java:346)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsForConfigurationClass(ConfigurationClassBeanDefinitionReader.java:142)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitions(ConfigurationClassBeanDefinitionReader.java:116)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:320)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:228)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:270)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:93)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:686)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:524)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:737)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:370)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:314)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1162)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1151)
+	at com.pulan.InfoServer.main(InfoServer.java:27)
+Caused by: java.io.FileNotFoundException: class path resource [applicaitonContext.xml] cannot be opened because it does not exist
+	at org.springframework.core.io.ClassPathResource.getInputStream(ClassPathResource.java:172)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:330)
+	... 20 more
+2017-11-15 14:42:10[INFO] Starting InfoServer on PC-20161012TGOR with PID 5108 (D:\JavaWorkspace\InfoServer\target\classes started by hadoop in D:\JavaWorkspace\InfoServer)
+2017-11-15 14:42:10[INFO] No active profile set, falling back to default profiles: default
+2017-11-15 14:42:10[INFO] Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@12c8a2c0: startup date [Wed Nov 15 14:42:10 CST 2017]; root of context hierarchy
+2017-11-15 14:42:11[INFO] HV000001: Hibernate Validator 5.3.4.Final
+2017-11-15 14:42:12[INFO] Loading XML bean definitions from class path resource [applicaitonContext.xml]
+2017-11-15 14:42:12[WARN] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: IOException parsing XML document from class path resource [applicaitonContext.xml]; nested exception is java.io.FileNotFoundException: class path resource [applicaitonContext.xml] cannot be opened because it does not exist
+2017-11-15 14:42:12[ERROR] Destroy method on bean with name 'org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory' threw an exception
+java.lang.IllegalStateException: ApplicationEventMulticaster not initialized - call 'refresh' before multicasting events via the context: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@12c8a2c0: startup date [Wed Nov 15 14:42:10 CST 2017]; root of context hierarchy
+	at org.springframework.context.support.AbstractApplicationContext.getApplicationEventMulticaster(AbstractApplicationContext.java:404)
+	at org.springframework.context.support.ApplicationListenerDetector.postProcessBeforeDestruction(ApplicationListenerDetector.java:97)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:253)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:578)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:554)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:961)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:523)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:968)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1033)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:555)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:737)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:370)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:314)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1162)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1151)
+	at com.pulan.InfoServer.main(InfoServer.java:27)
+2017-11-15 14:42:12[ERROR] Application startup failed
+org.springframework.beans.factory.BeanDefinitionStoreException: IOException parsing XML document from class path resource [applicaitonContext.xml]; nested exception is java.io.FileNotFoundException: class path resource [applicaitonContext.xml] cannot be opened because it does not exist
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:344)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:304)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:181)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:217)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:188)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsFromImportedResources(ConfigurationClassBeanDefinitionReader.java:346)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsForConfigurationClass(ConfigurationClassBeanDefinitionReader.java:142)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitions(ConfigurationClassBeanDefinitionReader.java:116)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:320)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:228)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:270)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:93)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:686)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:524)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:737)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:370)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:314)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1162)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1151)
+	at com.pulan.InfoServer.main(InfoServer.java:27)
+Caused by: java.io.FileNotFoundException: class path resource [applicaitonContext.xml] cannot be opened because it does not exist
+	at org.springframework.core.io.ClassPathResource.getInputStream(ClassPathResource.java:172)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:330)
+	... 20 more
+2017-11-15 14:45:06[INFO] Starting InfoServer on PC-20161012TGOR with PID 3996 (D:\JavaWorkspace\InfoServer\target\classes started by hadoop in D:\JavaWorkspace\InfoServer)
+2017-11-15 14:45:06[INFO] No active profile set, falling back to default profiles: default
+2017-11-15 14:45:06[INFO] Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1990a65e: startup date [Wed Nov 15 14:45:06 CST 2017]; root of context hierarchy
+2017-11-15 14:45:07[INFO] HV000001: Hibernate Validator 5.3.4.Final
+2017-11-15 14:45:08[INFO] Loading XML bean definitions from class path resource [applicaitonContext.xml]
+2017-11-15 14:45:08[WARN] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: IOException parsing XML document from class path resource [applicaitonContext.xml]; nested exception is java.io.FileNotFoundException: class path resource [applicaitonContext.xml] cannot be opened because it does not exist
+2017-11-15 14:45:08[ERROR] Destroy method on bean with name 'org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory' threw an exception
+java.lang.IllegalStateException: ApplicationEventMulticaster not initialized - call 'refresh' before multicasting events via the context: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1990a65e: startup date [Wed Nov 15 14:45:06 CST 2017]; root of context hierarchy
+	at org.springframework.context.support.AbstractApplicationContext.getApplicationEventMulticaster(AbstractApplicationContext.java:404)
+	at org.springframework.context.support.ApplicationListenerDetector.postProcessBeforeDestruction(ApplicationListenerDetector.java:97)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:253)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:578)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:554)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:961)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:523)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:968)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1033)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:555)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:737)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:370)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:314)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1162)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1151)
+	at com.pulan.InfoServer.main(InfoServer.java:27)
+2017-11-15 14:45:08[ERROR] Application startup failed
+org.springframework.beans.factory.BeanDefinitionStoreException: IOException parsing XML document from class path resource [applicaitonContext.xml]; nested exception is java.io.FileNotFoundException: class path resource [applicaitonContext.xml] cannot be opened because it does not exist
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:344)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:304)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:181)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:217)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:188)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsFromImportedResources(ConfigurationClassBeanDefinitionReader.java:346)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsForConfigurationClass(ConfigurationClassBeanDefinitionReader.java:142)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitions(ConfigurationClassBeanDefinitionReader.java:116)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:320)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:228)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:270)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:93)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:686)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:524)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:737)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:370)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:314)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1162)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1151)
+	at com.pulan.InfoServer.main(InfoServer.java:27)
+Caused by: java.io.FileNotFoundException: class path resource [applicaitonContext.xml] cannot be opened because it does not exist
+	at org.springframework.core.io.ClassPathResource.getInputStream(ClassPathResource.java:172)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:330)
+	... 20 more
+2017-11-15 14:46:49[INFO] Starting InfoServer on PC-20161012TGOR with PID 4932 (D:\JavaWorkspace\InfoServer\target\classes started by hadoop in D:\JavaWorkspace\InfoServer)
+2017-11-15 14:46:49[INFO] No active profile set, falling back to default profiles: default
+2017-11-15 14:46:49[INFO] Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1990a65e: startup date [Wed Nov 15 14:46:49 CST 2017]; root of context hierarchy
+2017-11-15 14:46:50[INFO] HV000001: Hibernate Validator 5.3.4.Final
+2017-11-15 14:46:51[INFO] Loading XML bean definitions from class path resource [applicationContext.xml]
+2017-11-15 14:46:51[INFO] Overriding bean definition for bean 'org.springframework.context.annotation.internalScheduledAnnotationProcessor' with a different definition: replacing [Generic bean: class [org.springframework.scheduling.annotation.ScheduledAnnotationBeanPostProcessor]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.scheduling.annotation.SchedulingConfiguration; factoryMethodName=scheduledAnnotationProcessor; initMethodName=null; destroyMethodName=(inferred); defined in org.springframework.scheduling.annotation.SchedulingConfiguration]
+2017-11-15 14:46:52[INFO] Initializing ExecutorService 
+2017-11-15 14:46:52[INFO] Bean 'executor' of type [class org.springframework.scheduling.config.TaskExecutorFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-11-15 14:46:52[INFO] Bean 'executor' of type [class org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-11-15 14:46:52[INFO] Bean 'org.springframework.boot.autoconfigure.validation.ValidationAutoConfiguration' of type [class org.springframework.boot.autoconfigure.validation.ValidationAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-11-15 14:46:53[INFO] Bean 'validator' of type [class org.springframework.validation.beanvalidation.LocalValidatorFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-11-15 14:46:53[INFO] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$865f6101] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-11-15 14:46:54[INFO] Tomcat initialized with port(s): 8085 (http)
+2017-11-15 14:46:54[INFO] Root WebApplicationContext: initialization completed in 4872 ms
+2017-11-15 14:46:54[INFO] Mapping servlet: 'dispatcherServlet' to [/]
+2017-11-15 14:46:54[INFO] Mapping servlet: 'statViewServlet' to [/druid/*]
+2017-11-15 14:46:54[INFO] Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-11-15 14:46:54[INFO] Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-11-15 14:46:54[INFO] Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-11-15 14:46:54[INFO] Mapping filter: 'requestContextFilter' to: [/*]
+2017-11-15 14:46:54[INFO] Mapping filter: 'webStatFilter' to urls: [/*]
+2017-11-15 14:46:55[INFO] Initializing ExecutorService  'scheduler'
+2017-11-15 14:46:56[INFO] Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1990a65e: startup date [Wed Nov 15 14:46:49 CST 2017]; root of context hierarchy
+2017-11-15 14:46:56[INFO] Mapped "{[/info/]}" onto public com.alibaba.fastjson.JSONObject com.pulan.controller.MeetingController.helloworld()
+2017-11-15 14:46:56[INFO] Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-11-15 14:46:56[INFO] Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-11-15 14:46:56[INFO] Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-11-15 14:46:56[INFO] Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-11-15 14:46:56[INFO] Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-11-15 14:46:57[INFO] Registering beans for JMX exposure on startup
+2017-11-15 14:46:57[INFO] Bean with name 'mysqlDbDataSource' has been autodetected for JMX exposure
+2017-11-15 14:46:57[INFO] Bean with name 'sqlserverDbDataSource' has been autodetected for JMX exposure
+2017-11-15 14:46:57[INFO] Located MBean 'sqlserverDbDataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=sqlserverDbDataSource,type=DruidDataSource]
+2017-11-15 14:46:57[INFO] Located MBean 'mysqlDbDataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=mysqlDbDataSource,type=DruidDataSource]
+2017-11-15 14:46:57[INFO] Tomcat started on port(s): 8085 (http)
+2017-11-15 14:46:57[INFO] Started InfoServer in 8.977 seconds (JVM running for 9.617)
+2017-11-15 14:49:00[INFO] Starting InfoServer on PC-20161012TGOR with PID 4780 (D:\JavaWorkspace\InfoServer\target\classes started by hadoop in D:\JavaWorkspace\InfoServer)
+2017-11-15 14:49:00[INFO] No active profile set, falling back to default profiles: default
+2017-11-15 14:49:00[INFO] Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1990a65e: startup date [Wed Nov 15 14:49:00 CST 2017]; root of context hierarchy
+2017-11-15 14:49:01[INFO] HV000001: Hibernate Validator 5.3.4.Final
+2017-11-15 14:49:03[INFO] Bean 'org.springframework.boot.autoconfigure.validation.ValidationAutoConfiguration' of type [class org.springframework.boot.autoconfigure.validation.ValidationAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-11-15 14:49:03[INFO] Bean 'validator' of type [class org.springframework.validation.beanvalidation.LocalValidatorFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-11-15 14:49:03[INFO] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$4a377377] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-11-15 14:49:04[INFO] Tomcat initialized with port(s): 8085 (http)
+2017-11-15 14:49:04[INFO] Root WebApplicationContext: initialization completed in 3943 ms
+2017-11-15 14:49:04[INFO] Mapping servlet: 'dispatcherServlet' to [/]
+2017-11-15 14:49:04[INFO] Mapping servlet: 'statViewServlet' to [/druid/*]
+2017-11-15 14:49:04[INFO] Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-11-15 14:49:04[INFO] Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-11-15 14:49:04[INFO] Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-11-15 14:49:04[INFO] Mapping filter: 'requestContextFilter' to: [/*]
+2017-11-15 14:49:04[INFO] Mapping filter: 'webStatFilter' to urls: [/*]
+2017-11-15 14:49:06[INFO] Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1990a65e: startup date [Wed Nov 15 14:49:00 CST 2017]; root of context hierarchy
+2017-11-15 14:49:06[INFO] Mapped "{[/info/]}" onto public com.alibaba.fastjson.JSONObject com.pulan.controller.MeetingController.helloworld()
+2017-11-15 14:49:06[INFO] Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-11-15 14:49:06[INFO] Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-11-15 14:49:06[INFO] Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-11-15 14:49:06[INFO] Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-11-15 14:49:06[INFO] Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-11-15 14:49:06[INFO] Registering beans for JMX exposure on startup
+2017-11-15 14:49:06[INFO] Bean with name 'mysqlDbDataSource' has been autodetected for JMX exposure
+2017-11-15 14:49:06[INFO] Bean with name 'sqlserverDbDataSource' has been autodetected for JMX exposure
+2017-11-15 14:49:07[INFO] Located MBean 'sqlserverDbDataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=sqlserverDbDataSource,type=DruidDataSource]
+2017-11-15 14:49:07[INFO] Located MBean 'mysqlDbDataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=mysqlDbDataSource,type=DruidDataSource]
+2017-11-15 14:49:07[INFO] No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2017-11-15 14:49:07[INFO] Tomcat started on port(s): 8085 (http)
+2017-11-15 14:49:07[INFO] Started InfoServer in 7.724 seconds (JVM running for 8.335)
+2017-11-15 15:18:08[INFO] Starting InfoServer on PC-20161012TGOR with PID 5100 (D:\JavaWorkspace\InfoServer\target\classes started by hadoop in D:\JavaWorkspace\InfoServer)
+2017-11-15 15:18:08[INFO] No active profile set, falling back to default profiles: default
+2017-11-15 15:18:08[INFO] Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@c03cf28: startup date [Wed Nov 15 15:18:08 CST 2017]; root of context hierarchy
+2017-11-15 15:18:10[INFO] HV000001: Hibernate Validator 5.3.4.Final
+2017-11-15 15:18:10[INFO] Loading XML bean definitions from class path resource [applicationContext.xml]
+2017-11-15 15:18:11[INFO] Overriding bean definition for bean 'org.springframework.context.annotation.internalScheduledAnnotationProcessor' with a different definition: replacing [Generic bean: class [org.springframework.scheduling.annotation.ScheduledAnnotationBeanPostProcessor]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.scheduling.annotation.SchedulingConfiguration; factoryMethodName=scheduledAnnotationProcessor; initMethodName=null; destroyMethodName=(inferred); defined in org.springframework.scheduling.annotation.SchedulingConfiguration]
+2017-11-15 15:18:12[INFO] Initializing ExecutorService 
+2017-11-15 15:18:12[INFO] Bean 'executor' of type [class org.springframework.scheduling.config.TaskExecutorFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-11-15 15:18:12[INFO] Bean 'executor' of type [class org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-11-15 15:18:12[INFO] Bean 'org.springframework.boot.autoconfigure.validation.ValidationAutoConfiguration' of type [class org.springframework.boot.autoconfigure.validation.ValidationAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-11-15 15:18:12[INFO] Bean 'validator' of type [class org.springframework.validation.beanvalidation.LocalValidatorFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-11-15 15:18:12[INFO] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d98e107] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-11-15 15:18:13[INFO] Tomcat initialized with port(s): 8085 (http)
+2017-11-15 15:18:13[INFO] Root WebApplicationContext: initialization completed in 4944 ms
+2017-11-15 15:18:14[INFO] Mapping servlet: 'dispatcherServlet' to [/]
+2017-11-15 15:18:14[INFO] Mapping servlet: 'statViewServlet' to [/druid/*]
+2017-11-15 15:18:14[INFO] Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-11-15 15:18:14[INFO] Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-11-15 15:18:14[INFO] Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-11-15 15:18:14[INFO] Mapping filter: 'requestContextFilter' to: [/*]
+2017-11-15 15:18:14[INFO] Mapping filter: 'webStatFilter' to urls: [/*]
+2017-11-15 15:18:16[INFO] Initializing ExecutorService  'scheduler'
+2017-11-15 15:18:17[INFO] Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@c03cf28: startup date [Wed Nov 15 15:18:08 CST 2017]; root of context hierarchy
+2017-11-15 15:18:17[INFO] Mapped "{[/info/]}" onto public com.alibaba.fastjson.JSONObject com.pulan.controller.MeetingController.helloworld()
+2017-11-15 15:18:17[INFO] Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-11-15 15:18:17[INFO] Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-11-15 15:18:17[INFO] Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-11-15 15:18:17[INFO] Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-11-15 15:18:17[INFO] Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-11-15 15:18:18[INFO] Registering beans for JMX exposure on startup
+2017-11-15 15:18:18[INFO] Bean with name 'mysqlDbDataSource' has been autodetected for JMX exposure
+2017-11-15 15:18:18[INFO] Bean with name 'sqlserverDbDataSource' has been autodetected for JMX exposure
+2017-11-15 15:18:18[INFO] Located MBean 'sqlserverDbDataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=sqlserverDbDataSource,type=DruidDataSource]
+2017-11-15 15:18:18[INFO] Located MBean 'mysqlDbDataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=mysqlDbDataSource,type=DruidDataSource]
+2017-11-15 15:18:18[INFO] Tomcat started on port(s): 8085 (http)
+2017-11-15 15:18:18[INFO] Started InfoServer in 10.382 seconds (JVM running for 11.312)
+2017-11-15 15:19:16[INFO] Starting InfoServer on PC-20161012TGOR with PID 1176 (D:\JavaWorkspace\InfoServer\target\classes started by hadoop in D:\JavaWorkspace\InfoServer)
+2017-11-15 15:19:16[INFO] No active profile set, falling back to default profiles: default
+2017-11-15 15:19:16[INFO] Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@c03cf28: startup date [Wed Nov 15 15:19:16 CST 2017]; root of context hierarchy
+2017-11-15 15:19:18[INFO] HV000001: Hibernate Validator 5.3.4.Final
+2017-11-15 15:19:18[INFO] Loading XML bean definitions from class path resource [applicationContext.xml]
+2017-11-15 15:19:18[INFO] Overriding bean definition for bean 'org.springframework.context.annotation.internalScheduledAnnotationProcessor' with a different definition: replacing [Generic bean: class [org.springframework.scheduling.annotation.ScheduledAnnotationBeanPostProcessor]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.scheduling.annotation.SchedulingConfiguration; factoryMethodName=scheduledAnnotationProcessor; initMethodName=null; destroyMethodName=(inferred); defined in org.springframework.scheduling.annotation.SchedulingConfiguration]
+2017-11-15 15:19:19[INFO] Initializing ExecutorService 
+2017-11-15 15:19:19[INFO] Bean 'executor' of type [class org.springframework.scheduling.config.TaskExecutorFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-11-15 15:19:19[INFO] Bean 'executor' of type [class org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-11-15 15:19:19[INFO] Bean 'org.springframework.boot.autoconfigure.validation.ValidationAutoConfiguration' of type [class org.springframework.boot.autoconfigure.validation.ValidationAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-11-15 15:19:20[INFO] Bean 'validator' of type [class org.springframework.validation.beanvalidation.LocalValidatorFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-11-15 15:19:20[INFO] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$40386111] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-11-15 15:19:20[INFO] Tomcat initialized with port(s): 8085 (http)
+2017-11-15 15:19:21[INFO] Root WebApplicationContext: initialization completed in 4643 ms
+2017-11-15 15:19:21[INFO] Mapping servlet: 'dispatcherServlet' to [/]
+2017-11-15 15:19:21[INFO] Mapping servlet: 'statViewServlet' to [/druid/*]
+2017-11-15 15:19:21[INFO] Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-11-15 15:19:21[INFO] Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-11-15 15:19:21[INFO] Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-11-15 15:19:21[INFO] Mapping filter: 'requestContextFilter' to: [/*]
+2017-11-15 15:19:21[INFO] Mapping filter: 'webStatFilter' to urls: [/*]
+2017-11-15 15:19:23[INFO] Initializing ExecutorService  'scheduler'
+2017-11-15 15:19:24[INFO] Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@c03cf28: startup date [Wed Nov 15 15:19:16 CST 2017]; root of context hierarchy
+2017-11-15 15:19:24[INFO] Mapped "{[/info/]}" onto public com.alibaba.fastjson.JSONObject com.pulan.controller.MeetingController.helloworld()
+2017-11-15 15:19:24[INFO] Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-11-15 15:19:24[INFO] Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-11-15 15:19:24[INFO] Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-11-15 15:19:24[INFO] Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-11-15 15:19:24[INFO] Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-11-15 15:19:25[INFO] Registering beans for JMX exposure on startup
+2017-11-15 15:19:25[INFO] Bean with name 'mysqlDbDataSource' has been autodetected for JMX exposure
+2017-11-15 15:19:25[INFO] Bean with name 'sqlserverDbDataSource' has been autodetected for JMX exposure
+2017-11-15 15:19:25[INFO] Located MBean 'sqlserverDbDataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=sqlserverDbDataSource,type=DruidDataSource]
+2017-11-15 15:19:25[INFO] Located MBean 'mysqlDbDataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=mysqlDbDataSource,type=DruidDataSource]
+2017-11-15 15:19:25[INFO] Tomcat started on port(s): 8085 (http)
+2017-11-15 15:19:25[INFO] Started InfoServer in 9.761 seconds (JVM running for 10.626)
+2017-11-15 15:20:03[INFO] -----------------minutes push start-------------
+2017-11-15 15:20:06[INFO] {dataSource-1} inited
+2017-11-15 15:20:22[ERROR] testWhileIdle is true, validationQuery not set
+2017-11-15 15:20:22[INFO] {dataSource-2} inited
+2017-11-15 15:20:40[INFO] Created instance with connectionTimeout 5,000, readTimeout 30,000, maxRetryTimes 3, SSL Version TLS
+2017-11-15 15:20:40[INFO] Created instance with connectionTimeout 5,000, readTimeout 30,000, maxRetryTimes 3, SSL Version TLS
+2017-11-15 15:20:40[INFO] Created instance with connectionTimeout 5,000, readTimeout 30,000, maxRetryTimes 3, SSL Version TLS
+2017-11-15 15:20:40[INFO] Created instance with connectionTimeout 5,000, readTimeout 30,000, maxRetryTimes 3, SSL Version TLS
+2017-11-15 15:20:40[INFO] pushPayload{"platform":"all","audience":{"alias":["864260021305441"]},"notification":{"android":{"alert":"您有会议将在1970-01-01 08:00:00,小会议室召开,会议主题是测试,创建者是普兰测试","extras":{"androidNotification extras key":"meetting"},"title":"会议创建提醒"}},"message":{"title":"会议创建提醒","msg_content":"您有会议将在1970-01-01 08:00:00,小会议室召开,会议主题是测试,创建者是普兰测试","extras":{"message extras key":"meetting"}},"options":{"sendno":1,"time_to_live":86400,"apns_production":false}}
+2017-11-15 15:20:41[INFO] pushResult{"msg_id":54043197587437954,"sendno":1,"statusCode":0}
+2017-11-15 15:21:06[INFO] -----------------minutes push start-------------
+2017-11-15 15:21:06[INFO] pushPayload{"platform":"all","audience":{"alias":["864260021305441"]},"notification":{"android":{"alert":"您有会议将在1970-01-01 08:00:00,小会议室召开,会议主题是测试,创建者是普兰测试","extras":{"androidNotification extras key":"meetting"},"title":"会议创建提醒"}},"message":{"title":"会议创建提醒","msg_content":"您有会议将在1970-01-01 08:00:00,小会议室召开,会议主题是测试,创建者是普兰测试","extras":{"message extras key":"meetting"}},"options":{"sendno":1,"time_to_live":86400,"apns_production":false}}
+2017-11-15 15:21:06[INFO] pushResult{"msg_id":65302196744772065,"sendno":1,"statusCode":0}
+2017-11-15 15:22:00[INFO] -----------------minutes push start-------------
+2017-11-15 15:22:00[INFO] pushPayload{"platform":"all","audience":{"alias":["864260021305441"]},"notification":{"android":{"alert":"您有会议将在1970-01-01 08:00:00,小会议室召开,会议主题是测试,创建者是普兰测试","extras":{"androidNotification extras key":"meetting"},"title":"会议创建提醒"}},"message":{"title":"会议创建提醒","msg_content":"您有会议将在1970-01-01 08:00:00,小会议室召开,会议主题是测试,创建者是普兰测试","extras":{"message extras key":"meetting"}},"options":{"sendno":1,"time_to_live":86400,"apns_production":false}}
+2017-11-15 15:22:00[INFO] pushResult{"msg_id":54043197587446683,"sendno":1,"statusCode":0}
+2017-11-15 15:24:33[INFO] -----------------minutes push start-------------
+2017-11-15 15:25:28[INFO] Starting InfoServer on PC-20161012TGOR with PID 4372 (D:\JavaWorkspace\InfoServer\target\classes started by hadoop in D:\JavaWorkspace\InfoServer)
+2017-11-15 15:25:28[INFO] No active profile set, falling back to default profiles: default
+2017-11-15 15:25:28[INFO] Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@c03cf28: startup date [Wed Nov 15 15:25:28 CST 2017]; root of context hierarchy
+2017-11-15 15:25:29[INFO] HV000001: Hibernate Validator 5.3.4.Final
+2017-11-15 15:25:30[INFO] Loading XML bean definitions from class path resource [applicationContext.xml]
+2017-11-15 15:25:31[INFO] Overriding bean definition for bean 'org.springframework.context.annotation.internalScheduledAnnotationProcessor' with a different definition: replacing [Generic bean: class [org.springframework.scheduling.annotation.ScheduledAnnotationBeanPostProcessor]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.scheduling.annotation.SchedulingConfiguration; factoryMethodName=scheduledAnnotationProcessor; initMethodName=null; destroyMethodName=(inferred); defined in org.springframework.scheduling.annotation.SchedulingConfiguration]
+2017-11-15 15:25:32[INFO] Initializing ExecutorService 
+2017-11-15 15:25:32[INFO] Bean 'executor' of type [class org.springframework.scheduling.config.TaskExecutorFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-11-15 15:25:32[INFO] Bean 'executor' of type [class org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-11-15 15:25:32[INFO] Bean 'org.springframework.boot.autoconfigure.validation.ValidationAutoConfiguration' of type [class org.springframework.boot.autoconfigure.validation.ValidationAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-11-15 15:25:32[INFO] Bean 'validator' of type [class org.springframework.validation.beanvalidation.LocalValidatorFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-11-15 15:25:32[INFO] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a4d91d20] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-11-15 15:25:33[INFO] Tomcat initialized with port(s): 8085 (http)
+2017-11-15 15:25:33[INFO] Root WebApplicationContext: initialization completed in 4475 ms
+2017-11-15 15:25:33[INFO] Mapping servlet: 'dispatcherServlet' to [/]
+2017-11-15 15:25:33[INFO] Mapping servlet: 'statViewServlet' to [/druid/*]
+2017-11-15 15:25:33[INFO] Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-11-15 15:25:33[INFO] Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-11-15 15:25:33[INFO] Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-11-15 15:25:33[INFO] Mapping filter: 'requestContextFilter' to: [/*]
+2017-11-15 15:25:33[INFO] Mapping filter: 'webStatFilter' to urls: [/*]
+2017-11-15 15:25:35[INFO] Initializing ExecutorService  'scheduler'
+2017-11-15 15:25:36[INFO] Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@c03cf28: startup date [Wed Nov 15 15:25:28 CST 2017]; root of context hierarchy
+2017-11-15 15:25:36[INFO] Mapped "{[/info/]}" onto public com.alibaba.fastjson.JSONObject com.pulan.controller.MeetingController.helloworld()
+2017-11-15 15:25:36[INFO] Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-11-15 15:25:36[INFO] Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-11-15 15:25:36[INFO] Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-11-15 15:25:36[INFO] Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-11-15 15:25:36[INFO] Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-11-15 15:25:37[INFO] Registering beans for JMX exposure on startup
+2017-11-15 15:25:37[INFO] Bean with name 'mysqlDbDataSource' has been autodetected for JMX exposure
+2017-11-15 15:25:37[INFO] Bean with name 'sqlserverDbDataSource' has been autodetected for JMX exposure
+2017-11-15 15:25:37[INFO] Located MBean 'sqlserverDbDataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=sqlserverDbDataSource,type=DruidDataSource]
+2017-11-15 15:25:37[INFO] Located MBean 'mysqlDbDataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=mysqlDbDataSource,type=DruidDataSource]
+2017-11-15 15:25:38[INFO] Tomcat started on port(s): 8085 (http)
+2017-11-15 15:25:38[INFO] Started InfoServer in 10.082 seconds (JVM running for 10.866)
+2017-11-15 15:26:16[INFO] -----------------minutes push start-------------
+2017-11-15 15:26:16[INFO] {dataSource-1} inited
+2017-11-15 15:26:18[ERROR] testWhileIdle is true, validationQuery not set
+2017-11-15 15:26:18[INFO] {dataSource-2} inited
+2017-11-15 15:26:38[ERROR] Unexpected error occurred in scheduled task.
+java.lang.ClassCastException: java.math.BigDecimal cannot be cast to java.lang.Long
+	at com.pulan.task.JpushScheduleMinuteTask.excute(JpushScheduleMinuteTask.java:60)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:65)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:81)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-11-15 16:43:40[INFO] Created instance with connectionTimeout 5,000, readTimeout 30,000, maxRetryTimes 3, SSL Version TLS
+2017-11-15 16:43:41[INFO] Created instance with connectionTimeout 5,000, readTimeout 30,000, maxRetryTimes 3, SSL Version TLS
+2017-11-15 16:43:41[INFO] Created instance with connectionTimeout 5,000, readTimeout 30,000, maxRetryTimes 3, SSL Version TLS
+2017-11-15 16:43:41[INFO] Created instance with connectionTimeout 5,000, readTimeout 30,000, maxRetryTimes 3, SSL Version TLS
+2017-11-15 16:43:41[INFO] pushPayload{"platform":"all","audience":{"alias":["77a8bfb6c7222b5143636f03e3f7bce6"]},"notification":{"android":{"alert":"chouyan","extras":{"androidNotification extras key":"test"},"title":"test"}},"message":{"title":"test","msg_content":"chouyan","extras":{"message extras key":"test"}},"options":{"sendno":1,"time_to_live":86400,"apns_production":false}}
+2017-11-15 16:43:42[INFO] pushResult{"msg_id":42784198071563870,"sendno":1,"statusCode":0}
+2017-11-15 17:09:27[INFO] Created instance with connectionTimeout 5,000, readTimeout 30,000, maxRetryTimes 3, SSL Version TLS
+2017-11-15 17:09:28[INFO] Created instance with connectionTimeout 5,000, readTimeout 30,000, maxRetryTimes 3, SSL Version TLS
+2017-11-15 17:09:28[INFO] Created instance with connectionTimeout 5,000, readTimeout 30,000, maxRetryTimes 3, SSL Version TLS
+2017-11-15 17:09:28[INFO] Created instance with connectionTimeout 5,000, readTimeout 30,000, maxRetryTimes 3, SSL Version TLS
+2017-11-15 17:09:28[INFO] pushPayload{"platform":["ios","android"],"audience":{"alias":["77a8bfb6c7222b5143636f03e3f7bce6"]},"notification":{"alert":"chouyan","android":{"alert":"chouyan","extras":{"androidNotification extras key":"test"},"title":"test"},"ios":{"alert":"chouyan","extras":{"androidNotification extras key":"test"},"badge":"+1","sound":""}},"options":{"sendno":1,"time_to_live":86400,"apns_production":false}}
+2017-11-15 17:09:28[INFO] pushResult{"msg_id":65302196746349753,"sendno":1,"statusCode":0}

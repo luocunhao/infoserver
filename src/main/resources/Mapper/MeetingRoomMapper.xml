@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.pulan.Dao.MeetingRoomDao">
+	<resultMap id="MeetingRoomResult" type="com.pulan.model.MeetingRoom">
+	    <result column="fd_id" property="fd_id" jdbcType="VARCHAR" />
+		<result column="meetingRoomName" property="meetingRoomName" jdbcType="VARCHAR" />
+	</resultMap>
+	<!-- 查询 -->
+	<select id="getAllMeetingRoom" parameterType="Map" resultType="String">
+		SELECT fd_id FROM km_meetingres_info WHERE doc_category_id = '13f8536b791cbac627ce29142b187769' AND fd_id NOT IN ('1419aea03ba093ee2ca92434004a7d09','1419aec093ae381038f4fa64eaea5909','1419aeccdcf2b86be8ba1f54a4790d0e');
+	</select>
+	<!-- 查询 -->
+	<select id="getMeetingRoomBytime" parameterType="Map" resultType="String">
+	select fd_resource_id from km_meetingres_main where (#{starttime} BETWEEN hbm_start_date+hbm_start_time  and  hbm_finish_date+hbm_finish_time or #{endtime} BETWEEN hbm_start_date+hbm_start_time  and  hbm_finish_date+hbm_finish_time)
+	and fd_resource_id in (select fd_id from km_meetingres_info where doc_category_id = '13f8536b791cbac627ce29142b187769')
+	</select>
+	<!-- 查询 -->
+	<select id="getRoomNameByString" parameterType="Map" resultMap="MeetingRoomResult">
+		select fd_id,fd_name as meetingRoomName from km_meetingres_info where fd_id = #{fd_id};
+	</select>
+</mapper>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.pulan.Dao.MessageDao">
+	<resultMap id="MessageResult" type="com.pulan.model.Message">
+		<result column="message_uuid" property="message_uuid" jdbcType="VARCHAR" />
+		<result column="message_name" property="message_name" jdbcType="VARCHAR" />
+		<result column="message_type" property="message_type" jdbcType="VARCHAR" />
+		<result column="data_sql" property="data_sql" jdbcType="VARCHAR" />
+		<result column="message_template" property="message_template" jdbcType="VARCHAR" />
+		<result column="data_source" property="data_source" jdbcType="VARCHAR" />
+		<result column="schedule_type" property="schedule_type" jdbcType="VARCHAR" />
+		<result column="expire_time" property="expire_time" jdbcType="VARCHAR" />
+	</resultMap>
+	<resultMap id="MessageParamResult" type="com.pulan.model.MessageParam">
+		<result column="message_uuid" property="message_uuid" jdbcType="VARCHAR" />
+		<result column="message_param_name" property="message_param_name" jdbcType="VARCHAR" />
+		<result column="message_param_uuid" property="message_param_uuid" jdbcType="VARCHAR" />
+		<result column="message_param_index" property="message_param_index" jdbcType="VARCHAR" />
+		<result column="message_param_value" property="message_param_value" jdbcType="VARCHAR" />
+	</resultMap>
+	<!-- 查询 -->
+	<select id="getMessageByName" parameterType="Map" resultMap="MessageResult">
+		select * from ai_message where message_name = #{message_name}
+	</select>
+	<!-- 查询 -->
+	<select id="getAllMessageByType" parameterType="Map" resultMap="MessageResult">
+		select * from ai_message where message_type = #{message_type}
+	</select>
+	<!-- 查询 -->
+	<select id="getAllMessageName" parameterType="Map" resultMap="MessageResult">
+		select * from ai_message
+	</select>
+	<!-- 查询 -->
+	<select id="getAllMessageNameByType" parameterType="Map" resultMap="MessageResult">
+		select * from ai_message where schedule_type = #{schedule_type}
+	</select>
+	<!-- 查询 -->
+	<select id="getAllParamsByMessage" parameterType="Map" resultType="String">
+		select message_param_value from ai_message_param where message_uuid = #{message_uuid} order by message_param_index
+	</select>
+	<select id="getAllParamsObjByMessage" parameterType="Map" resultMap="MessageParamResult">
+		select * from ai_message_param where message_uuid = #{message_uuid}
+	</select>
+</mapper>

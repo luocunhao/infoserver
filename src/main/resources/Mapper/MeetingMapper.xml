@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.pulan.Dao.MeetingDao">
+	<resultMap id="MeetingResult" type="com.pulan.model.Meeting">
+		<result column="fd_id" property="id" jdbcType="VARCHAR" />
+		<result column="meeting_subject" property="meeting_subject" jdbcType="VARCHAR" />
+		<result column="meeting_begintime" property="meeting_begintime" jdbcType="VARCHAR" />
+		<result column="meeting_address" property="meeting_address" jdbcType="VARCHAR" />
+	</resultMap>
+	<!-- 查询 -->
+	<select id="getAllMeeting" parameterType="Map" resultMap="MeetingResult">
+	select a.fd_id,d.doc_subject as meeting_subject,d.hbm_hold_date+d.hbm_hold_time as meeting_begintime,e.fd_name as meeting_address from
+ sys_org_person a,sys_org_element b,km_meeting_main_attend_person c,km_meeting_main d,km_meetingres_info e
+where 
+a.fd_id = b.fd_id and b.fd_id = c.fd_main_attend_id and c.fd_main_id = d.fd_id and d.fd_hold_place=e.fd_id and
+a.fd_login_name = #{login_name}
+	</select>
+</mapper>
